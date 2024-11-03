@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
     methods:["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    origin:[""],
+    origin:["https://luxury-croissant-6d9ae0.netlify.app"],
     credentials:true
 }
 
